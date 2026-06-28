@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our New Beginning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="scene1" class="scene active">
+        <div class="heart display-heart">💓</div>
+        <div class="text-line" data-delay="0">Hii Ammuuu... ❤️</div>
+        <div class="text-line" data-delay="2000">My Thangooo... 💕</div>
+        <div class="text-line" data-delay="4000">My Suchi Maa... 🌸</div>
+        <div class="text-line" data-delay="6000">My Tiger Kutty... 🐯</div>
+        <div class="text-line" data-delay="8000">My Chellam... 🥹</div>
+        <div class="text-line" data-delay="10000">My Papa... ❤️</div>
+        <div class="text-line" data-delay="12000">My Bujjukusss... 🤍</div>
+        <div class="text-line" data-delay="15000" class="highlight-text">"There isn't a single day where my heart doesn't think about you..."</div>
+        <button class="btn next-btn" data-next="scene2" style="margin-top: 30px;">Open My Heart ❤️</button>
+    </div>
+
+    <div id="scene2" class="scene">
+        <div class="universe-bg"></div>
+        <div class="text-line" data-delay="0">"Every memory with you..."</div>
+        <div class="text-line" data-delay="2000">"...became my favorite place."</div>
+        <div class="text-line" data-delay="4000">"You were never just a chapter..."</div>
+        <div class="text-line" data-delay="6000">"...you became my whole story."</div>
+        <button class="btn next-btn" data-next="scene3">Continue... ✨</button>
+    </div>
+
+    <div id="scene3" class="scene">
+        <div class="rain-overlay"></div>
+        <div id="stormHeart" class="heart cracked slow">💔</div>
+        <div class="text-line" data-delay="0">"We smiled together..."</div>
+        <div class="text-line" data-delay="1500">"We dreamed together..."</div>
+        <div class="text-line" data-delay="3000">"Then we got lost..."</div>
+        <div class="text-line" data-delay="4500">"I made mistakes..."</div>
+        <div class="text-line" data-delay="6000">"I hurt the person I love the most..."</div>
+        <div class="text-line" data-delay="8000">"Seeing your pain..."</div>
+        <div class="text-line" data-delay="10000" style="font-style: italic;">"...is the biggest regret of my life."</div>
+        <button class="btn next-btn" data-next="scene4">Look up... 🌅</button>
+    </div>
+
+    <div id="scene4" class="scene">
+        <div class="heart small-heart">❤️</div>
+        <div class="text-line" data-delay="0">"I cannot change yesterday..."</div>
+        <div class="text-line" data-delay="2000">"But I can become a better person tomorrow."</div>
+        <div class="text-line animated-blooms">🌸 🦋 🦚 🌸</div>
+        <button class="btn next-btn" data-next="scene5">My Promises 🌸</button>
+    </div>
+
+    <div id="scene5" class="scene">
+        <div class="card-container">
+            <div class="promise-card" data-delay="0"><h3>❤️ Ammu...</h3><p>I'll make you smile again.</p></div>
+            <div class="promise-card" data-delay="1500"><h3>💕 Thango...</h3><p>I'll listen before I speak.</p></div>
+            <div class="promise-card" data-delay="3000"><h3>🌸 Suchi Maa...</h3><p>I'll understand your silence, not just your words.</p></div>
+            <div class="promise-card" data-delay="4500"><h3>🐯 Tiger Kutty...</h3><p>I'll protect your heart with my actions.</p></div>
+            <div class="promise-card" data-delay="6000"><h3>🥹 Chellam...</h3><p>I'll never make you feel alone again.</p></div>
+            <div class="promise-card" data-delay="7500"><h3>❤️ Papa...</h3><p>I'll build a future where you feel safe and loved.</p></div>
+            <div class="promise-card" data-delay="9000"><h3>🤍 Bujjukusss...</h3><p>Thank you for giving me one last chance. I won't waste it.</p></div>
+        </div>
+        <button class="btn next-btn" data-next="scene6">Open My Letter 💌</button>
+    </div>
+
+    <div id="scene6" class="scene">
+        <div id="letterEnvelope" class="envelope">
+            <div class="letter-content">
+                <p><strong>My Dearest Ammu,</strong></p><br>
+                <p>I'm sorry... Sorry for the moments where my actions hurt you. Sorry for the tears you had to hide. Sorry for the trust that became difficult.</p><br>
+                <p>I know words alone cannot heal everything. That's why I don't want to promise perfection. I want to promise effort. I want to promise patience. I want to promise understanding. I want to promise that I'll make you smile again.</p><br>
+                <p>I don't want to go back to the past. I want us to build a better future. A future where we laugh more than we cry. Where we understand more than we misunderstand. Where we choose each other every single day.</p><br>
+                <p>If you'll give me this chance... Let's restart our love again... Not from where we broke... But from where we first fell in love.</p><br>
+                <p class="signature">❤️ Forever choosing you,<br><strong>Shameer</strong></p>
+                <div class="tear-drop"></div>
+            </div>
+        </div>
+        <button class="btn next-btn" data-next="scene7">Look at me... ✨</button>
+    </div>
+
+    <div id="scene7" class="scene">
+        <div class="heart final-heart">❤️</div>
+        <div class="text-line visible main-conclusion">"Every beat of my heart still chooses you."</div>
+        <button class="btn" id="finalBtn">❤️ Start Our New Beginning</button>
+        <div id="toBeContinued" class="text-line main-conclusion" style="margin-top: 30px; display: none;">"To be continued... together."</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
